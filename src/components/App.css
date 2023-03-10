@@ -1,0 +1,288 @@
+/* ESTILOS DE CLASES Y ID */
+body{
+    background-color: whitesmoke;
+}
+
+.productosContainer{
+    margin: 30px auto;
+}
+
+.cardTitulo{ 
+    font-size: 1.2rem;
+}
+
+.cardSubTitulo{
+    font-size: 1.15rem;
+}
+
+.carrito{
+    background-color:  #7d3868d9;
+    border: 3px solid #fff
+}
+
+.carrito:hover{
+    background-color:  #df0b0bcc;
+    color: rgba(223,11,11,0.8); 
+}
+
+.carritoIcono{
+    color: #fff;
+}
+
+.cantCarrito{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin: 0 5px;
+}
+
+/* pruenaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+/* * Preparing stage */
+
+body {
+    background: rgb(223,11,11);
+    background: linear-gradient(117deg, rgba(223,11,11,0.8) 0%, rgba(125,57,105,0.85) 72%);
+}
+/* * Start */
+.glassBox {
+    width: 100%;
+    height: 530px;
+    max-width: 300px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.glassBox, .glassBox *{
+    box-sizing: border-box;
+    transition: 400ms;
+}
+.glassBox__imgBox img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.glassBox__title {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Lato";
+}
+.glassBox__content {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Lato";
+    letter-spacing: 0.1em;
+    opacity: 0;
+}
+.glassBox:hover .glassBox__imgBox {
+    transform: translateY(-10px);
+}
+.glassBox:hover .glassBox__imgBox img {
+    transform: translate(-10px, -20px) rotate(-1deg) scale(1.3);
+}
+
+/*botonesssssssssssssssssss*/
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+.rainbow-button {
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 10%;
+    border-radius: 10%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    color: #000;
+
+}
+.rainbow-button:after {
+    position: absolute;
+    content:attr(alt);
+    width:70%;
+    height:7%;
+    background-color:#fff;
+    border-radius: 10%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.rainbow-button:hover {
+    animation:slidebg 5s linear infinite;
+    color: #000;
+    background: linear-gradient(85deg, rgba(255,255,255,1) 0%, rgba(223,11,11,0.8) 27%, rgba(255,255,255,1) 57%, rgba(223,11,11,0.8)  90%, rgba(255,255,255,1) 100%);
+}
+
+@keyframes slidebg {
+to { 
+    background-position:15vw;
+}
+}
+
+
+/*contacto*/
+.inputContacto{
+    color: aliceblue;
+}
+
+
+/*FOOTER*/
+
+.footer-basic {
+    padding:40px 0;
+    color: #fff;
+    margin: 6rem;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:1.5rem;
+    line-height:1.6;
+    margin-bottom: 4rem;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:4rem;
+  }
+  
+  .footer-basic .social > a {
+    font-size:1rem;
+    width:45px;
+    height:45px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:1rem;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+/*CART*/
+
+.cartContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divButtons button {
+    margin:4px;
+}
+
+.cardCart {
+    width: 100%;
+    max-height: 255px;
+}
+
+.bodyCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10% 0;
+    font-size: 1.5rem;
+}
+
+.bodyCart h5{
+    font-size: 1.5rem;
+}
+
+
+.iconoDeBorrar{
+    font-size: 1.5rem;
+}
+
+.divButtons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divButtons p{
+    font-size: 2rem;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.actionButtons{
+    display: flex;
+    z-index: 2;
+}
+
+
+.detallesButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.CarritoVacioCantainer{
+    display: flex;
+    justify-content: center;
+    margin: 20rem 0;
+}
+
+.carritoVacio{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    padding: 0 2rem;
+    
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color: #df0b0bcc;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 99em;
+  border: 16px solid #7d3868d9;
+}
+
+/* ESTILOS GENERALES */
