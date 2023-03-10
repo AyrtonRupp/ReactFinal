@@ -26,3 +26,6 @@ _Realice un e-commerce de bebidas, mi idea era ser lo más visual y original pos
 ### Agradecimientos⭐⭐⭐:
 
 _Queria dejar un espacio para agradecer por todo este camino de aprendisaje, tanto a mis tutores como a mi profe Javier.Muchisimas gracias!! 😁😁😁_
+
+### Link a el Video:
+_https://www.youtube.com/watch?v=yBqeR63u6Xc_
